@@ -1,6 +1,6 @@
 from scapy.all import ARP, Ether, srp
 
-target_ip="192.168.200.1/24"
+target_ip="192.168.43.0/24"
 
 arp = ARP(pdst=target_ip)
 
