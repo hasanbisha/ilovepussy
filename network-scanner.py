@@ -2,6 +2,8 @@ from scapy.all import ARP, Ether, srp
 
 target_ip="192.168.43.0/24"
 
+target_ip="192.168.43.1/24"
+
 arp = ARP(pdst=target_ip)
 
 ether = Ether(dst="ff:ff:ff:ff:ff:ff")
